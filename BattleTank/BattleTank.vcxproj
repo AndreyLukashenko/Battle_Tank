@@ -148,6 +148,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BattleTank.cpp" />
+    <ClCompile Include="ConsoleUI.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Tank.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConsoleUI.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Position.h" />
+    <ClInclude Include="Tank.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
